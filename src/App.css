@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Main {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1110px) {
+  .Main {
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+
+  #Main-1,
+  #Main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
